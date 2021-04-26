@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>PubsBICubes</Database>
+    <Server>DESKTOP-70919O9\NAIT2020</Server>
+    <ConnectionString>Data Source=DESKTOP-70919O9\NAIT2020;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>r6R6n4m4W8oTh1+MjmjehSZXo3k=2021-03-03 10:31:11 PM2021-03-02 10:40:51 PM</TimeStamp>
+        <ID>
+          <String>DW Pubs Sales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>GCfc0FJC+Ko9D3EvKemgxbGACtU=2021-03-14 3:58:36 PM2021-03-02 10:42:39 PM</TimeStamp>
+        <ID>
+          <String>DWPubsSalesTables</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>x4M7qE34BS2F8BbBvqb8gdQ9noI=2021-03-03 10:16:17 PM2021-03-03 8:08:31 PM</TimeStamp>
+        <ID>
+          <String>DimAuthors</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7ekC74dRL/poLUDp7F/QK8PSkFo=2021-03-03 10:16:49 PM2021-03-03 8:12:16 PM</TimeStamp>
+        <ID>
+          <String>DimStores</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CJn8D9bfUbk67nWrzftE8mqta8U=2021-03-03 10:19:11 PM2021-03-03 8:13:42 PM</TimeStamp>
+        <ID>
+          <String>DimDates</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XxG81oJG8Ch1aUESPW6RcrU9Jyg=2021-03-03 9:18:23 PM2021-03-03 8:15:45 PM</TimeStamp>
+        <ID>
+          <String>DimOrders</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>N/1gNnmHjKT70QRBuRRcZQ2zxZA=2021-03-03 10:20:42 PM2021-03-03 9:18:23 PM</TimeStamp>
+        <ID>
+          <String>DimTitles</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>hejRZWqNbLDg4Jdwg38K1i+AWD0=2021-03-14 4:25:28 PM2021-03-14 3:09:45 PMnOZRRc8v4xyRrjH71i+mYeTPo9g=2021-03-14 4:20:24 PM2021-03-14 3:09:45 PM</TimeStamp>
+        <ID>
+          <String>DWPubsSalesVer1</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>K8ItmLLyT75xuBQlvMfGH/hypHc=2021-03-02 10:35:27 PM2021-03-02 10:35:26 PM</TimeStamp>
+      <ID>
+        <String>PubsBICubes</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-04-14T06:21:12.22Z</LastDeployed>
+</DeploymentSnapshot>

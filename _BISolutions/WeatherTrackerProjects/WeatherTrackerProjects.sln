@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionDocuments", "SolutionDocuments", "{4C9FE39D-38B6-4F33-93E8-E4E415AE66B5}"
+	ProjectSection(SolutionItems) = preProject
+		SQLTransformations.sql = SQLTransformations.sql
+		WeatherHistory.txt = WeatherHistory.txt
+		WeatherTrackerETLPlan.xls = WeatherTrackerETLPlan.xls
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WeatherTrackerDataWarehouse", "WeatherTrackerDataWarehouse", "{2F8A2B88-37E1-4F4C-B60E-8F549FD86C5E}"
+	ProjectSection(SolutionItems) = preProject
+		InstWeatherTrackerDW.sql = InstWeatherTrackerDW.sql
+	EndProjectSection
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "WeatherTrackerETL", "WeatherTrackerETL\WeatherTrackerETL.dtproj", "{4F63FB21-5F42-41B7-9E4E-52E6B65DB8B1}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "WeatherTrackerCubes", "..\..\_Bookfiles\_BookFiles\Chapter02Files\_SSASFiles\WeatherTrackerCubes\WeatherTrackerCubes.dwproj", "{504353B7-2C3D-4CE5-9567-26F33F7DF8D4}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "WeatherTrackerReport", "WeatherTrackerReport\WeatherTrackerReport.rptproj", "{F4B26DBA-D0EF-45F7-BF89-8D5EAE878A95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Development|Default = Development|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F63FB21-5F42-41B7-9E4E-52E6B65DB8B1}.Debug|Default.ActiveCfg = Development
+		{4F63FB21-5F42-41B7-9E4E-52E6B65DB8B1}.Debug|Default.Build.0 = Development
+		{4F63FB21-5F42-41B7-9E4E-52E6B65DB8B1}.DebugLocal|Default.ActiveCfg = Development
+		{4F63FB21-5F42-41B7-9E4E-52E6B65DB8B1}.DebugLocal|Default.Build.0 = Development
+		{4F63FB21-5F42-41B7-9E4E-52E6B65DB8B1}.Development|Default.ActiveCfg = Development
+		{4F63FB21-5F42-41B7-9E4E-52E6B65DB8B1}.Development|Default.Build.0 = Development
+		{4F63FB21-5F42-41B7-9E4E-52E6B65DB8B1}.Release|Default.ActiveCfg = Development
+		{4F63FB21-5F42-41B7-9E4E-52E6B65DB8B1}.Release|Default.Build.0 = Development
+		{504353B7-2C3D-4CE5-9567-26F33F7DF8D4}.Debug|Default.ActiveCfg = Development
+		{504353B7-2C3D-4CE5-9567-26F33F7DF8D4}.Debug|Default.Build.0 = Development
+		{504353B7-2C3D-4CE5-9567-26F33F7DF8D4}.Debug|Default.Deploy.0 = Development
+		{504353B7-2C3D-4CE5-9567-26F33F7DF8D4}.DebugLocal|Default.ActiveCfg = Development
+		{504353B7-2C3D-4CE5-9567-26F33F7DF8D4}.DebugLocal|Default.Build.0 = Development
+		{504353B7-2C3D-4CE5-9567-26F33F7DF8D4}.DebugLocal|Default.Deploy.0 = Development
+		{504353B7-2C3D-4CE5-9567-26F33F7DF8D4}.Development|Default.ActiveCfg = Development
+		{504353B7-2C3D-4CE5-9567-26F33F7DF8D4}.Development|Default.Build.0 = Development
+		{504353B7-2C3D-4CE5-9567-26F33F7DF8D4}.Development|Default.Deploy.0 = Development
+		{504353B7-2C3D-4CE5-9567-26F33F7DF8D4}.Release|Default.ActiveCfg = Development
+		{504353B7-2C3D-4CE5-9567-26F33F7DF8D4}.Release|Default.Build.0 = Development
+		{504353B7-2C3D-4CE5-9567-26F33F7DF8D4}.Release|Default.Deploy.0 = Development
+		{F4B26DBA-D0EF-45F7-BF89-8D5EAE878A95}.Debug|Default.ActiveCfg = Debug
+		{F4B26DBA-D0EF-45F7-BF89-8D5EAE878A95}.Debug|Default.Build.0 = Debug
+		{F4B26DBA-D0EF-45F7-BF89-8D5EAE878A95}.Debug|Default.Deploy.0 = Debug
+		{F4B26DBA-D0EF-45F7-BF89-8D5EAE878A95}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{F4B26DBA-D0EF-45F7-BF89-8D5EAE878A95}.DebugLocal|Default.Build.0 = DebugLocal
+		{F4B26DBA-D0EF-45F7-BF89-8D5EAE878A95}.Development|Default.ActiveCfg = Debug
+		{F4B26DBA-D0EF-45F7-BF89-8D5EAE878A95}.Development|Default.Build.0 = Debug
+		{F4B26DBA-D0EF-45F7-BF89-8D5EAE878A95}.Development|Default.Deploy.0 = Debug
+		{F4B26DBA-D0EF-45F7-BF89-8D5EAE878A95}.Release|Default.ActiveCfg = Release
+		{F4B26DBA-D0EF-45F7-BF89-8D5EAE878A95}.Release|Default.Build.0 = Release
+		{F4B26DBA-D0EF-45F7-BF89-8D5EAE878A95}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75A0C55F-A766-439F-87B0-57F18BC2D845}
+	EndGlobalSection
+EndGlobal

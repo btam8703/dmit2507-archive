@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "NorthwindBICubes", "NorthwindBICubes\NorthwindBICubes.dwproj", "{B0059E49-E38E-405F-A256-902ED7D81BDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{588D6CB4-7BC5-4C8B-9D71-CBB7D7B83BE2}"
+	ProjectSection(SolutionItems) = preProject
+		inclassresults.png = inclassresults.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0059E49-E38E-405F-A256-902ED7D81BDC}.Development|Default.ActiveCfg = Development
+		{B0059E49-E38E-405F-A256-902ED7D81BDC}.Development|Default.Build.0 = Development
+		{B0059E49-E38E-405F-A256-902ED7D81BDC}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6A0544C-6E9F-4B00-B268-329311FA9A20}
+	EndGlobalSection
+EndGlobal
